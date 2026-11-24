@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sonora Lab de Filarmed: descubre cómo la música filarmónica conecta con tus emociones, escucha cada instrumento y vive próximos conciertos y talleres.">
+    <title>Sonora Lab | Filarmed</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/Icono sonora.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <!-- ================= HEADER / HERO ================= -->
+    <header id="inicio" class="hero">
+        <nav class="navbar" id="navbar" aria-label="Navegación principal">
+            <a href="#inicio" class="nav-brand" aria-label="Sonora Lab Inicio">
+                <img class="Logo" src="Images/Logo Sonora.svg" alt="Logo Sonora Lab">
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false"
+                aria-controls="navMenu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <ul class="menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#emociones" class="nav-link">Emociones</a></li>
+                <li><a href="#proyecto" class="nav-link">Nosotros</a></li>
+                <li><a href="#instrumentos" class="nav-link">Música</a></li>
+                <li><a href="#eventos" class="nav-link">Eventos</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <div class="header-txt">
+                <span class="hero-badge">Experiencia Filarmed</span>
+                <h2>La música también siente…</h2>
+                <h1>¿y tú, qué quieres <br><span>descubrir hoy?</span></h1>
+            </div>
+
+            <div class="header-btns">
+                <a href="#emociones" class="btn-header1">
+                    DESCUBRE MÁS
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                        <path d="M5 12h14M13 5l7 7-7 7" />
+                    </svg>
+                </a>
+                <a href="#instrumentos" class="btn-header2">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M8 5v14l11-7z" />
+                    </svg>
+                    Escucha la orquesta
+                </a>
+            </div>
+        </div>
+
+        <a href="#emociones" class="scroll-cue" aria-label="Desplazar hacia abajo">
+            <span>Explora</span>
+            <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+        </a>
+    </header>
+
+    <main>
+        <!-- ================= EMOCIONES ================= -->
+        <section id="emociones" class="emociones">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">Playlists emocionales</span>
+                <h4>Dale Play a lo que Sientes</h4>
+                <p class="section-subtitle">Elige tu estado de ánimo y abre una playlist curada por Sonora Lab en
+                    Spotify.</p>
+            </div>
+
+            <div class="cont-emociones">
+                <!-- FELIZ -->
+                <a href="https://open.spotify.com/playlist/0siv9cl6Cr743ywMoGAAL7?si=JFVQvl4FSQyzlB7602ILxA&pi=snZN_2LHTMOuF"
+                    target="_blank" rel="noopener noreferrer" class="emoji emoji--yellow reveal"
+                    aria-label="Abrir playlist Feliz y buena vibra en Spotify">
+                    <div class="cara-wrap">
+                        <img class="cara" src="Images/cara amarilla.svg" alt="Emoción feliz y buena vibra">
+                    </div>
+                    <span class="btn-emoji">Feliz y buena vibra</span>
+                    <p class="txt-emoji">
+                        Música llena de ritmo y alegría para esos días donde todo se siente mejor.
+                    </p>
+                    <div class="play-cta">
+                        <img class="boton" src="Images/Play amarillo.svg" alt="" aria-hidden="true">
+                        <span class="play-hint">Abrir en Spotify ↗</span>
+                    </div>
+                </a>
+
+                <!-- CONCENTRACIÓN -->
+                <a href="https://open.spotify.com/playlist/1wOMKMDXXKdffeT18mabDu?si=s6NdmH0rR0uoagSieueolQ"
+                    target="_blank" rel="noopener noreferrer" class="emoji emoji--purple reveal"
+                    aria-label="Abrir playlist Mood Concentración en Spotify">
+                    <div class="cara-wrap">
+                        <img class="cara" src="Images/cara morada.svg" alt="Emoción mood concentración">
+                    </div>
+                    <span class="btn-emoji">Mood Concentración</span>
+                    <p class="txt-emoji">
+                        Sonidos suaves y envolventes para estudiar, crear o enfocarte en lo que más importa.
+                    </p>
+                    <div class="play-cta">
+                        <img class="boton" src="Images/Play morado.svg" alt="" aria-hidden="true">
+                        <span class="play-hint">Abrir en Spotify ↗</span>
+                    </div>
+                </a>
+
+                <!-- RELAX -->
+                <a href="https://open.spotify.com/playlist/0B4sx2KsmzB3iWe6HQ0iwc?si=8ENDhDC9T6W_dw1eGvoddA"
+                    target="_blank" rel="noopener noreferrer" class="emoji emoji--green reveal"
+                    aria-label="Abrir playlist Relax y tranquilo en Spotify">
+                    <div class="cara-wrap">
+                        <img class="cara" src="Images/cara verde.svg" alt="Emoción relax y tranquilo">
+                    </div>
+                    <span class="btn-emoji">Relax y tranquilo</span>
+                    <p class="txt-emoji">
+                        Respira, baja el ritmo y déjate llevar por melodías que transmiten calma.
+                    </p>
+                    <div class="play-cta">
+                        <img class="boton" src="Images/Play verde.svg" alt="" aria-hidden="true">
+                        <span class="play-hint">Abrir en Spotify ↗</span>
+                    </div>
+                </a>
+
+                <!-- TRISTE -->
+                <a href="https://open.spotify.com/playlist/57gF2IPuiicBpv2F7dk85W?si=kVUGyJl2TV6PPPW0pHCdXg"
+                    target="_blank" rel="noopener noreferrer" class="emoji emoji--blue reveal"
+                    aria-label="Abrir playlist Bajito de ánimo en Spotify">
+                    <div class="cara-wrap">
+                        <img class="cara" src="Images/cara azul.svg" alt="Emoción bajito de ánimo">
+                    </div>
+                    <span class="btn-emoji">Bajito de ánimo</span>
+                    <p class="txt-emoji">
+                        Cuando necesitas reconectar contigo, la música puede acompañarte.
+                    </p>
+                    <div class="play-cta">
+                        <img class="boton" src="Images/Play azul.svg" alt="" aria-hidden="true">
+                        <span class="play-hint">Abrir en Spotify ↗</span>
+                    </div>
+                </a>
+
+                <!-- ENERGÍA -->
+                <a href="https://open.spotify.com/playlist/2SyNl548SoJcFzGVVhsfD1?si=St1jvgIqRTC4JK_fyhSB6Q&pi=OSY6KjrwTc2X8"
+                    target="_blank" rel="noopener noreferrer" class="emoji emoji--red reveal"
+                    aria-label="Abrir playlist Explosión de energía en Spotify">
+                    <div class="cara-wrap">
+                        <img class="cara" src="Images/cara roja.svg" alt="Emoción explosión de energía">
+                    </div>
+                    <span class="btn-emoji">Explosión de energía</span>
+                    <p class="txt-emoji">
+                        Sonidos intensos, emocionantes y llenos de fuerza para activarte.
+                    </p>
+                    <div class="play-cta">
+                        <img class="boton" src="Images/Play rojo.svg" alt="" aria-hidden="true">
+                        <span class="play-hint">Abrir en Spotify ↗</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- ================= PROYECTO / NOSOTROS ================= -->
+        <section id="proyecto" class="proyecto">
+            <div class="proyecto-bg" aria-hidden="true"></div>
+
+            <div class="proyecto-container">
+                <!-- TEXTO -->
+                <div class="proyecto-info reveal">
+                    <span class="tag-proyecto">
+                        Investigación musical y emocional
+                    </span>
+
+                    <h2>
+                        ¿A qué suena <br>
+                        <em>lo que sientes?</em>
+                    </h2>
+
+                    <p>
+                        Este proyecto explora cómo la música filarmónica y la música actual
+                        influyen en las emociones, la atención y la percepción de niños y
+                        adolescentes entre los 10 y 15 años.
+                    </p>
+
+                    <p>
+                        A través de entrevistas, observación y experiencias interactivas,
+                        descubrimos que la música clásica puede generar calma, imaginación y
+                        concentración cuando se vive desde lo visual y lo emocional.
+                    </p>
+
+                    <p>
+                        La investigación busca crear nuevas formas de conectar a las
+                        audiencias jóvenes con la música filarmónica mediante diseño,
+                        interacción y experiencias digitales más cercanas a su realidad.
+                    </p>
+
+                    <div class="proyecto-stats">
+                        <div class="stat-pill">
+                            <strong>10–15</strong>
+                            <span>años de audiencia</span>
+                        </div>
+                        <div class="stat-pill">
+                            <strong>5</strong>
+                            <span>universos emocionales</span>
+                        </div>
+                        <div class="stat-pill">
+                            <strong>10</strong>
+                            <span>voces de orquesta</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VISUAL -->
+                <div class="proyecto-visual reveal">
+                    <div class="proyecto-img-frame">
+                        <img src="Images/foto proyecto.jpg" alt="Jóvenes explorando la música en Sonora Lab">
+                    </div>
+
+                    <div class="bubbles-group">
+                        <div class="bubble bubble1">emociones</div>
+                        <div class="bubble bubble2">música + diseño</div>
+                        <div class="bubble bubble3">experiencias</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= INSTRUMENTOS ================= -->
+        <section id="instrumentos" class="instrumentos">
+            <div class="cont-instrumentos">
+                <div class="txt reveal">
+                    <span class="section-eyebrow section-eyebrow--dark">Explorador sonoro</span>
+                    <h3>Cada</h3>
+                    <h5>instrumento</h5>
+                    <h3>tiene una voz...</h3>
+                    <h2>¿quieres escucharla?</h2>
+
+                    <p class="txt-instrumentos">
+                        Haz clic sobre cualquier instrumento y descubre cómo suena dentro de una
+                        orquesta filarmónica.
+                    </p>
+
+                    <!-- Mini reproductor de estado -->
+                    <div class="now-playing" id="nowPlaying" aria-live="polite">
+                        <div class="now-playing-icon" aria-hidden="true">
+                            <span class="eq-bar"></span>
+                            <span class="eq-bar"></span>
+                            <span class="eq-bar"></span>
+                            <span class="eq-bar"></span>
+                        </div>
+                        <div class="now-playing-info">
+                            <span class="now-playing-status" id="nowPlayingStatus">Listo para sonar</span>
+                            <strong class="now-playing-name" id="nowPlayingName">Elige un instrumento</strong>
+                        </div>
+                        <button type="button" class="now-playing-stop" id="stopAudioBtn"
+                            aria-label="Detener sonido" hidden>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <rect x="6" y="6" width="12" height="12" rx="2" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="carrusel-wrapper reveal">
+                    <div class="carrusel">
+                        <div class="carrusel-viewport" id="carruselViewport" tabindex="0"
+                            aria-label="Carrusel de instrumentos musicales">
+                            <div class="carrusel-track">
+                                <button type="button" class="carrusel-item" data-sound="Sounds/clarinete.mp3"
+                                    data-name="Clarinete" data-family="Viento madera">
+                                    <span class="instrument-family">Viento madera</span>
+                                    <div class="carrusel-img">
+                                        <img src="Images/Clarinete.png" alt="Clarinete">
+                                    </div>
+                                    <span class="carrusel-label">
+                                        <span class="play-dot" aria-hidden="true"></span>
+                                        Clarinete
+                                    </span>
+                                </button>
+
+                                <button type="button" class="carrusel-item" data-sound="Sounds/violin.mp3"
+                                    data-name="Violín" data-family="Cuerda frotada">
+                                    <span class="instrument-family">Cuerda frotada</span>
+                                    <div class="carrusel-img">
+                                        <img src="Images/Violin.png" alt="Violín">
+                                    </div>
+                                    <span class="carrusel-label">
+                                        <span class="play-dot" aria-hidden="true"></span>
+                                        Violín
+                                    </span>
+                                </button>
+
+                                <button type="button" class="carrusel-item" data-sound="Sounds/piano.mp3"
+                                    data-name="Piano" data-family="Cuerda percutida">
+                                    <span class="instrument-family">Cuerda percutida</span>
+                                    <div class="carrusel-img">
+                                        <img src="Images/piano.png" alt="Piano">
+                                    </div>
+                                    <span class="carrusel-label">
+                                        <span class="play-dot" aria-hidden="true"></span>
+                                        Piano
+                                    </span>
+                                </button>
+
+                                <button type="button" class="carrusel-item" data-sound="Sounds/bombo.mp3"
+                                    data-name="Bombo" data-family="Percusión">
+                                    <span class="instrument-family">Percusión</span>
+                                    <div class="carrusel-img">
+                                        <img src="Images/Bombo.png" alt="Bombo">
+                                    </div>
+                                    <span class="carrusel-label">
+                                        <span class="play-dot" aria-hidden="true"></span>
+                                        Bombo
+                                    </span>
+                                </button>
+
+                                <button type="button" class="carrusel-item" data-sound="Sounds/campanas.mp3"
+                                    data-name="Campanas Tubulares" data-family="Percusión">
+                                    <span class="instrument-family">Percusión</span>
+                                    <div class="carrusel-img">
+                                        <img src="Images/Campanas Tubulares.png" alt="Campanas Tubulares">
+                                    </div>
+                                    <span class="carrusel-label">
+                                        <span class="play-dot" aria-hidden="true"></span>
+                                        Campanas Tubulares
+                                    </span>
+                                </button>
+
+                                <button type="button" class="carrusel-item" data-sound="Sounds/contrabajo.mp3"
+                                    data-name="Contrabajo" data-family="Cuerda frotada">
+                                    <span class="instrument-family">Cuerda frotada</span>
+                                    <div class="carrusel-img">
+                                        <img src="Images/Contrabajo.png" alt="Contrabajo">
+                                    </div>
+                                    <span class="carrusel-label">
+                                        <span class="play-dot" aria-hidden="true"></span>
+                                        Contrabajo
+                                    </span>
+                                </button>
+
+                                <button type="button" class="carrusel-item" data-sound="Sounds/corno.mp3"
+                                    data-name="Corno Francés" data-family="Viento metal">
+                                    <span class="instrument-family">Viento metal</span>
+                                    <div class="carrusel-img">
+                                        <img src="Images/Corno Frances.png" alt="Corno Francés">
+                                    </div>
+                                    <span class="carrusel-label">
+                                        <span class="play-dot" aria-hidden="true"></span>
+                                        Corno Francés
+                                    </span>
+                                </button>
+
+                                <button type="button" class="carrusel-item" data-sound="Sounds/timbales.mp3"
+                                    data-name="Timbales" data-family="Percusión">
+                                    <span class="instrument-family">Percusión</span>
+                                    <div class="carrusel-img">
+                                        <img src="Images/Timbales.png" alt="Timbales">
+                                    </div>
+                                    <span class="carrusel-label">
+                                        <span class="play-dot" aria-hidden="true"></span>
+                                        Timbales
+                                    </span>
+                                </button>
+
+                                <button type="button" class="carrusel-item" data-sound="Sounds/arpa.mp3"
+                                    data-name="Arpa" data-family="Cuerda pulsada">
+                                    <span class="instrument-family">Cuerda pulsada</span>
+                                    <div class="carrusel-img">
+                                        <img src="Images/Arpa.png" alt="Arpa">
+                                    </div>
+                                    <span class="carrusel-label">
+                                        <span class="play-dot" aria-hidden="true"></span>
+                                        Arpa
+                                    </span>
+                                </button>
+
+                                <button type="button" class="carrusel-item" data-sound="Sounds/tuba.mp3"
+                                    data-name="Tuba" data-family="Viento metal">
+                                    <span class="instrument-family">Viento metal</span>
+                                    <div class="carrusel-img">
+                                        <img src="Images/Tuba.png" alt="Tuba">
+                                    </div>
+                                    <span class="carrusel-label">
+                                        <span class="play-dot" aria-hidden="true"></span>
+                                        Tuba
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <button type="button" class="carrusel-btn carrusel-prev" aria-label="Instrumentos anteriores">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path d="M15 18l-6-6 6-6" />
+                            </svg>
+                        </button>
+
+                        <button type="button" class="carrusel-btn carrusel-next" aria-label="Siguientes instrumentos">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path d="M9 6l6 6-6 6" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="carrusel-dots" id="carruselDots" aria-label="Indicadores del carrusel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= EVENTOS / LO QUE SE VIENE ================= -->
+        <section id="eventos" class="loquesevienne">
+            <!-- Columna izquierda -->
+            <div class="lqv-intro reveal">
+                <img src="Images/calendario.png" alt="Joven disfrutando música con audífonos" class="lqv-intro-img">
+                <div class="lqv-intro-overlay">
+                    <span class="lqv-badge">Agenda 2026</span>
+                    <p class="lqv-intro-text">
+                        Talleres, laboratorios y conciertos pensados para sentir la orquesta de cerca.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Columna derecha -->
+            <div class="lqv-right">
+                <div class="lqv-banner reveal">
+                    <img src="Images/BANNER.png" alt="" aria-hidden="true">
+                </div>
+
+                <h2 class="lqv-title reveal">Lo que se viene...</h2>
+
+                <div class="lqv-cards">
+                    <button type="button" class="lqv-card reveal" data-event-title="Laboratorio sonoro: Sesión Interactiva"
+                        data-event-date="30 de mayo · 10:00 a. m."
+                        data-event-place="Sede Filarmed · Medellín"
+                        data-event-desc="Una mañana para experimentar con instrumentos reales, descubrir cómo nacen las emociones en la música y crear paisajes sonoros junto a músicos de la Filarmónica."
+                        data-event-img="Images/Cuadro 1.png"
+                        data-event-accent="#6899E8">
+                        <img src="Images/Cuadro 1.png" alt="Laboratorio sonoro Sesión Interactiva">
+                        <span class="lqv-date"><strong>30</strong><small>mayo</small></span>
+                        <span class="lqv-name">
+                            <span class="cursivo">Laboratorio sonoro</span>
+                            Sesión Interactiva
+                        </span>
+                        <span class="lqv-arrow" aria-hidden="true">↗</span>
+                    </button>
+
+                    <button type="button" class="lqv-card lqv-card--light reveal"
+                        data-event-title="Pequeños Compositores"
+                        data-event-date="04 de junio · 3:00 p. m."
+                        data-event-place="Sala Sonora Lab · Medellín"
+                        data-event-desc="Taller creativo donde niños y adolescentes entre 10 y 15 años transforman sus historias y estados de ánimo en melodías originales con acompañamiento orquestal."
+                        data-event-img="Images/Cuadro 2.png"
+                        data-event-accent="#F2C933">
+                        <img src="Images/Cuadro 2.png" alt="Pequeños Compositores">
+                        <span class="lqv-date"><strong>04</strong><small>junio</small></span>
+                        <span class="lqv-name-2">
+                            Pequeños
+                            <span class="cursivo-2">Compositores</span>
+                        </span>
+                        <span class="lqv-arrow lqv-arrow--dark" aria-hidden="true">↗</span>
+                    </button>
+
+                    <button type="button" class="lqv-card reveal" data-event-title="Concierto nº1: Filar Kids"
+                        data-event-date="07 de junio · 11:00 a. m."
+                        data-event-place="Teatro Metropolitano · Medellín"
+                        data-event-desc="Un concierto vibrante para toda la familia donde la orquesta filarmónica cobra vida con visuales, narración en vivo y repertorio lleno de magia y energía."
+                        data-event-img="Images/Cuadro 3.png"
+                        data-event-accent="#EA4329">
+                        <img src="Images/Cuadro 3.png" alt="Concierto nº1 Filar Kids">
+                        <span class="lqv-date"><strong>07</strong><small>junio</small></span>
+                        <span class="lqv-name">
+                            Concierto nº1
+                            <span class="cursivo">Filar Kids</span>
+                        </span>
+                        <span class="lqv-arrow" aria-hidden="true">↗</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= MOMENTOS + GALERÍA ================= -->
+        <section id="galeria" class="momentos">
+            <div class="separacion">
+                <h2 class="mom-titulo reveal">
+                    Pequeñas notas,<br>
+                    <em>grandes emociones</em>
+                </h2>
+            </div>
+
+            <div class="collage">
+                <div class="mom-collage">
+                    <button type="button" class="mom-foto mom-foto-grande reveal" data-lightbox-index="0"
+                        data-caption="Ensayo de violines · Conectando desde el escenario">
+                        <img src="Images/foto 1.png" alt="Ensayo de violines en Filarmed">
+                        <span class="foto-overlay">
+                            <span class="foto-caption">Ensayo de violines</span>
+                            <span class="foto-zoom" aria-hidden="true">+</span>
+                        </span>
+                    </button>
+
+                    <button type="button" class="mom-foto reveal" data-lightbox-index="1"
+                        data-caption="El pulso grave del contrabajo en acción">
+                        <img src="Images/foto 2.png" alt="Contrabajo en concierto">
+                        <span class="foto-overlay">
+                            <span class="foto-caption">Contrabajo</span>
+                            <span class="foto-zoom" aria-hidden="true">+</span>
+                        </span>
+                    </button>
+
+                    <button type="button" class="mom-foto reveal" data-lightbox-index="2"
+                        data-caption="Cartas y emociones compartidas con Filarmed">
+                        <img src="Images/foto 3.png" alt="Carta a Filarmed">
+                        <span class="foto-overlay">
+                            <span class="foto-caption">Carta a Filarmed</span>
+                            <span class="foto-zoom" aria-hidden="true">+</span>
+                        </span>
+                    </button>
+
+                    <button type="button" class="mom-foto reveal" data-lightbox-index="3"
+                        data-caption="K-Pop filarmónico · Música actual y orquesta">
+                        <img src="Images/foto 4.png" alt="K-Pop filarmónico">
+                        <span class="foto-overlay">
+                            <span class="foto-caption">K-Pop filarmónico</span>
+                            <span class="foto-zoom" aria-hidden="true">+</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= NEWSLETTER ================= -->
+        <section id="contacto" class="correo">
+            <div class="cont-correo">
+                <div class="correo-copy reveal">
+                    <span class="correo-eyebrow">Comunidad Sonora Lab</span>
+                    <h3>Mantente <br> informado</h3>
+                    <p>Recibe primero noticias de conciertos, talleres interactivos y nuevas playlists.</p>
+                </div>
+
+                <div class="newsletter reveal">
+                    <form class="newsletter-form" id="newsletterForm" novalidate>
+                        <div class="input-container" id="inputContainer">
+                            <label for="newsletterEmail" class="sr-only">Correo electrónico</label>
+                            <input type="email" id="newsletterEmail" name="email"
+                                placeholder="Escribe tu correo electrónico" autocomplete="email" required />
+
+                            <button type="submit" class="mail-btn" aria-label="Suscribirme al boletín">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                                    <path d="m21 7-9 6-9-6"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- IZQUIERDA -->
+            <div class="footer-social">
+                <h3>Síguenos y vive la experiencia</h3>
+
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/filarmed?igsh=dzJqcTF4dzIzZWdo" target="_blank"
+                        rel="noopener noreferrer" class="icon red" aria-label="Instagram de Filarmed">
+                        <img src="Images/Instagram.png" alt="Instagram">
+                    </a>
+
+                    <a href="https://www.tiktok.com/@filarmed?is_from_webapp=1&sender_device=pc" target="_blank"
+                        rel="noopener noreferrer" class="icon purple" aria-label="TikTok de Filarmed">
+                        <img src="Images/TikTok.png" alt="TikTok">
+                    </a>
+
+                    <a href="https://www.facebook.com/filarmed/" target="_blank" rel="noopener noreferrer"
+                        class="icon blue" aria-label="Facebook de Filarmed">
+                        <img src="Images/Facebook.png" alt="Facebook">
+                    </a>
+                </div>
+
+                <a href="https://filarmed.org/" target="_blank" rel="noopener noreferrer" class="filarmed-logo"
+                    aria-label="Sitio oficial de Filarmed">
+                    <img src="Images/Logo filarmed.svg" alt="Filarmed">
+                </a>
+            </div>
+
+            <!-- CENTRO -->
+            <div class="footer-logo">
+                <a href="#inicio" aria-label="Volver al inicio">
+                    <img src="Images/Logo Sonora.svg" alt="Sonora Lab">
+                </a>
+            </div>
+
+            <!-- DERECHA -->
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#emociones">Emociones</a></li>
+                    <li><a href="#proyecto">Nosotros</a></li>
+                    <li><a href="#instrumentos">Música</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-copy">
+            <p>© Copyright Filarmed 2026 · Sonora Lab</p>
+        </div>
+    </footer>
+
+    <!-- ================= MODAL EVENTO ================= -->
+    <div class="modal" id="eventModal" role="dialog" aria-modal="true" aria-labelledby="eventModalTitle" hidden>
+        <div class="modal-backdrop" data-close-modal></div>
+        <div class="modal-card">
+            <button type="button" class="modal-close" data-close-modal aria-label="Cerrar detalle del evento">✕</button>
+            <div class="modal-media">
+                <img id="eventModalImg" src="" alt="">
+                <span class="modal-date-pill" id="eventModalDate"></span>
+            </div>
+            <div class="modal-body">
+                <span class="modal-place" id="eventModalPlace"></span>
+                <h3 id="eventModalTitle"></h3>
+                <p id="eventModalDesc"></p>
+                <div class="modal-actions">
+                    <button type="button" class="btn-modal-primary" id="eventInterestBtn">
+                        Quiero recibir aviso
+                    </button>
+                    <button type="button" class="btn-modal-secondary" data-close-modal>
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= LIGHTBOX GALERÍA ================= -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de galería" hidden>
+        <div class="lightbox-backdrop" data-close-lightbox></div>
+        <button type="button" class="lightbox-close" data-close-lightbox aria-label="Cerrar galería">✕</button>
+        <button type="button" class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Foto anterior">‹</button>
+        <figure class="lightbox-figure">
+            <img id="lightboxImg" src="" alt="">
+            <figcaption id="lightboxCaption"></figcaption>
+        </figure>
+        <button type="button" class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Foto siguiente">›</button>
+    </div>
+
+    <!-- ================= BOTÓN VOLVER ARRIBA ================= -->
+    <button type="button" class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+            <path d="M18 15l-6-6-6 6" />
+        </svg>
+    </button>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
